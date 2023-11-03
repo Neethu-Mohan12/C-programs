@@ -1,0 +1,14 @@
+#include <stdio.h>
+int num()
+{
+    static int count = 0;
+    count++;
+    return count;
+}
+ 
+int main()
+{
+    printf("%d ", num());
+    printf("%d ", num());
+    return 0;
+}
