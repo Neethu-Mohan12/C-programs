@@ -6,21 +6,21 @@ int main()
    scanf("%d",&mark);
    if(mark>=80)
    {
-       printf("A");
+       printf("Congrats you scored grade A");
    }
    else if
        (mark>=60)
    {
-       printf("B");
+       printf("you scored grade B");
    }
    
    else if(mark>=40)
    {
-       printf("c");
+       printf("you scored grade c");
    }
    else 
    {
-       printf("fail");
+       printf("Sorry you are fail");
    }
    
    
