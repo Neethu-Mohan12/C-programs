@@ -6,7 +6,7 @@ int main()
   	char Str1[100];
   	int i;
  
-  	printf("\n Please Enter a String that you want to Convert into Uppercase :  ");
+  	printf("\n Enter string:   ");
   	gets(Str1);
   	
   	for (i = 0; Str1[i]!='\0'; i++)
