@@ -1,7 +1,5 @@
 #include<stdio.h>
 #include<string.h>
-
-
 void reverseString(char s[]) {
     int length = strlen(s);
     int i, j;
@@ -21,9 +19,9 @@ int main() {
     reverseString(s);
     printf("%s\n", s); 
      if (strcmp(s, s2) == 0) {
-        printf("palindrome\n");
+        printf("pallindrome\n");
     } else {
-        printf("not palindrome\n");
+        printf("not pallindrome\n");
     }
     return 0;
 }
