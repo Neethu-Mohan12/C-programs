@@ -19,7 +19,7 @@ int main() {
     reverseString(s);
     printf("%s\n", s); 
      if (strcmp(s, s2) == 0) {
-        printf("pallindrome\n");
+        printf("palindrome\n");
     } else {
         printf("not pallindrome\n");
     }
